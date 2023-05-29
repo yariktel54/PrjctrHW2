@@ -1,13 +1,7 @@
 header {
-    background: #F5F5F5;
-    width: 100%;
-    height: 10%;
-    top: 0;
-    left: 0;
-    position: absolute;
+    background: #ffffff;
 }
 .logo {
-    float: left;
     width: 238px;
     height: 24px;
     margin: 48px 10px 38px 100px;
@@ -15,59 +9,76 @@ header {
 .search { 
     width: 24px;
     height: 24px;
-    float: right;
     margin: 52px 10px 34px 10px;
 }
 .about {
-    float: right;
     width: 74px;
     height: 20px;
     margin: 50px 10px 40px 10px;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    letter-spacing: 0.04em;
-    color: #000000;
 }
 .shop {
-    float: right;
     width: 58px;
     height: 20px;
     margin: 50px 10px 40px 10px;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    letter-spacing: 0.04em;
-    color: #000000;
 }
 .cart {
-    float: right;
     width: 58px;
     height: 20px;
     margin: 50px 10px 40px 10px;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    letter-spacing: 0.04em;
-    color: #000000;
 }
 .bag {
-    float: right;
     height: 24px;
     width: 17.29px;
     margin: 50px 104.35px 36px 3.35px;
 }
-
+a {
+    text-decoration: none;
+    color: #000000;
+}
+p {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
 .first_part {
     background-image: url(./images/Rectangle.jpg);
     width: 100%;
     left: 0px;
     right: 0px;
-    position: absolute; 
+}
+h1 {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 78px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+h2  {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+}
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+}
+.third_part {
+    background-image: url(./images/Rectangle2.png);
+    width: 100%;
+    left: 0px;
+    right: 0px;
 }
